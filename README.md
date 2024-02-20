@@ -18,12 +18,12 @@ Projetos de Lógica de Programação em diversas linguagens
      - [Tutorial para baixar e instalar o python](#tutorial-para-baixar-e-instalar-o-python)
 
 # Dicionário de termos:
-
+ Esta seção diz respeito aos termos utilizados neste repositório, ela serve para poder padronizar a linguagem entre todos que utilizarem os recursos deste repositório explicando o que são os termos e à quê eles se referem. :)
 ## Arquivo executável:
 - Um arquivo executável contém uma sequência de passos que podem ser lidos pelo sistema da máquina para gerar um efeito sobre o próprio sistema, ele é usado para rodar algoritmos feitos por um programador.
 
 # Tecnologias utilizadas:
-
+  Esta seção lista e explica cada tecnologia utilizada para configuração dos ambientes, bem como deixa um tutorial de como instalar os requisitos para programar em cada máquina. 
 ## Compilador e editor de texto VSCode:
 ### Sobre:
  O compilador e editor de texto nomeado como VSCode é uma ferramenta muito utilizada por programadores para o desenvolvimento de software por causa de sua versatilidade e compatibilidade com várias linguagens de programação e várias extensões de arquivos. Além de uma interface amigável, ainda oferece uma grande gama de temas para customização, sendo perfeito para todos os tipos de programadores ou usuários. Além disso, ele é opensource e ainda oferece um serviço de nuvem que permite a transferência das configurações em um computador para o outro. Por isso, é uma ferramenta perfeita.
