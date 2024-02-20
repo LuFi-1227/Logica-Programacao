@@ -16,7 +16,12 @@ Projetos de Lógica de Programação em diversas linguagens
      - [Sobre](#sobre-2)
      - [Download](#download-2)
      - [Tutorial para baixar e instalar o python](#tutorial-para-baixar-e-instalar-o-python)
-
+- [Recomendação de cursos na Udemy e documentações](#recomendação-de-cursos-na-udemy-e-documentações)
+    - [Cursos](#cursos)
+        - [Curso C#](#c-completo-programação-orientada-a-objetos--projetos)
+    - [Documentações](#documentações)
+        - [Python](#documentação-python)
+        - [C](#documentação-c)
 # Dicionário de termos:
  Esta seção diz respeito aos termos utilizados neste repositório, ela serve para poder padronizar a linguagem entre todos que utilizarem os recursos deste repositório explicando o que são os termos e à quê eles se referem. :)
 ## Arquivo executável:
@@ -62,11 +67,14 @@ Projetos de Lógica de Programação em diversas linguagens
 # Recomendação de cursos na Udemy e documentações:
  Esta seção lista os cursos dos quais as bases para este repositório saíram, com os direitos de criação todos reservados para os criadores do curso.
 ## Cursos:
-
+ Esta subseção recomenda alguns cursos recomendados pelo criador deste repositório, alguns pagos, alguns gratuitos.
 ### C# COMPLETO Programação Orientada a Objetos + Projetos
 [Link](https://www.udemy.com/course/programacao-orientada-a-objetos-csharp/)
 
 ## Documentações:
-
+  Esta subseção contém links para a documentação das linguagens utilizadas na criação deste repositório.
 ### Documentação Python:
 [Documentação](https://docs.python.org/)
+
+### Documentação C:
+[Documentação](https://devdocs.io/c/)
