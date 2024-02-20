@@ -57,3 +57,16 @@ Projetos de Lógica de Programação em diversas linguagens
   Apesar de ser algo fácil, para iniciantes, instalar o python na própria máquina pode ser trabalhoso, nesse caso, recomendo um tutorial muito bom que utilizei para configurar na minha máquina. <br>
   [Tutorial](https://www.youtube.com/watch?v=ctcDfKYrzOQ)<br>
   Lembrando que todos os direitos de criação de conteúdo são do criador do vídeo.<br>
+
+
+# Recomendação de cursos na Udemy e documentações:
+ Esta seção lista os cursos dos quais as bases para este repositório saíram, com os direitos de criação todos reservados para os criadores do curso.
+## Cursos:
+
+### C# COMPLETO Programação Orientada a Objetos + Projetos
+[Link](https://www.udemy.com/course/programacao-orientada-a-objetos-csharp/)
+
+## Documentações:
+
+### Documentação Python:
+[Documentação](https://docs.python.org/)
