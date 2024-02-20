@@ -16,14 +16,19 @@ Projetos de Lógica de Programação em diversas linguagens
      - [Sobre](#sobre-2)
      - [Download](#download-2)
      - [Tutorial para baixar e instalar o python](#tutorial-para-baixar-e-instalar-o-python)
-
+- [Recomendação de cursos na Udemy e documentações](#recomendação-de-cursos-na-udemy-e-documentações)
+    - [Cursos](#cursos)
+        - [Curso C#](#c-completo-programação-orientada-a-objetos--projetos)
+    - [Documentações](#documentações)
+        - [Python](#documentação-python)
+        - [C](#documentação-c)
 # Dicionário de termos:
-
+ Esta seção diz respeito aos termos utilizados neste repositório, ela serve para poder padronizar a linguagem entre todos que utilizarem os recursos deste repositório explicando o que são os termos e à quê eles se referem. :)
 ## Arquivo executável:
 - Um arquivo executável contém uma sequência de passos que podem ser lidos pelo sistema da máquina para gerar um efeito sobre o próprio sistema, ele é usado para rodar algoritmos feitos por um programador.
 
 # Tecnologias utilizadas:
-
+  Esta seção lista e explica cada tecnologia utilizada para configuração dos ambientes, bem como deixa um tutorial de como instalar os requisitos para programar em cada máquina. 
 ## Compilador e editor de texto VSCode:
 ### Sobre:
  O compilador e editor de texto nomeado como VSCode é uma ferramenta muito utilizada por programadores para o desenvolvimento de software por causa de sua versatilidade e compatibilidade com várias linguagens de programação e várias extensões de arquivos. Além de uma interface amigável, ainda oferece uma grande gama de temas para customização, sendo perfeito para todos os tipos de programadores ou usuários. Além disso, ele é opensource e ainda oferece um serviço de nuvem que permite a transferência das configurações em um computador para o outro. Por isso, é uma ferramenta perfeita.
@@ -57,3 +62,19 @@ Projetos de Lógica de Programação em diversas linguagens
   Apesar de ser algo fácil, para iniciantes, instalar o python na própria máquina pode ser trabalhoso, nesse caso, recomendo um tutorial muito bom que utilizei para configurar na minha máquina. <br>
   [Tutorial](https://www.youtube.com/watch?v=ctcDfKYrzOQ)<br>
   Lembrando que todos os direitos de criação de conteúdo são do criador do vídeo.<br>
+
+
+# Recomendação de cursos na Udemy e documentações:
+ Esta seção lista os cursos dos quais as bases para este repositório saíram, com os direitos de criação todos reservados para os criadores do curso.
+## Cursos:
+ Esta subseção recomenda alguns cursos recomendados pelo criador deste repositório, alguns pagos, alguns gratuitos.
+### C# COMPLETO Programação Orientada a Objetos + Projetos
+[Link](https://www.udemy.com/course/programacao-orientada-a-objetos-csharp/)
+
+## Documentações:
+  Esta subseção contém links para a documentação das linguagens utilizadas na criação deste repositório.
+### Documentação Python:
+[Documentação](https://docs.python.org/)
+
+### Documentação C:
+[Documentação](https://devdocs.io/c/)
