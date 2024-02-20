@@ -5,17 +5,17 @@ Projetos de Lógica de Programação em diversas linguagens
 - [Dicionario de termos](#dicionário-de-termos)
   - [Arquivo executável](#arquivo-executável)
 - [Tecnologias utilizadas](#tecnologias-utilizadas)
-  - [Compilador e editor de texto VSCode]()
-     - [Sobre]()
-     - [Download]()
-  - [MinGW]()
-     - [Sobre]()
-     - [Download]()
-     - [Tutorial para configurar a máquina em C]()
+  - [Compilador e editor de texto VSCode](#compilador-e-editor-de-texto-vscode)
+     - [Sobre](#sobre)
+     - [Download](#download)
+  - [MinGW](#mingw)
+     - [Sobre](#sobre-1)
+     - [Download](#download-1)
+     - [Tutorial para configurar a máquina em C](#tutorial-para-configurar-a-máquina-em-c)
   - [Python]()
-     - [Sobre]()
-     - [Download]()
-     - [Tutorial para baixar e instalar o python]()
+     - [Sobre](#sobre-2)
+     - [Download](#download-2)
+     - [Tutorial para baixar e instalar o python](#tutorial-para-baixar-e-instalar-o-python)
 
 # Dicionário de termos:
 
@@ -54,5 +54,6 @@ Projetos de Lógica de Programação em diversas linguagens
   [Python](https://www.python.org/downloads/)
 
 ### Tutorial para baixar e instalar o python:
+  Apesar de ser algo fácil, para iniciantes, instalar o python na própria máquina pode ser trabalhoso, nesse caso, recomendo um tutorial muito bom que utilizei para configurar na minha máquina. <br>
   [Tutorial](https://www.youtube.com/watch?v=ctcDfKYrzOQ)<br>
   Lembrando que todos os direitos de criação de conteúdo são do criador do vídeo.<br>
