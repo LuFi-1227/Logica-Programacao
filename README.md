@@ -3,6 +3,8 @@ Projetos de Lógica de Programação em diversas linguagens
 
 # Índice:
 - [Dicionario de termos](#dicionário-de-termos)
+  - [Editor de texto]()
+  - [IDE]()
   - [Arquivo executável](#arquivo-executável)
 - [Tecnologias utilizadas](#tecnologias-utilizadas)
   - [Compilador e editor de texto VSCode](#compilador-e-editor-de-texto-vscode)
@@ -24,6 +26,13 @@ Projetos de Lógica de Programação em diversas linguagens
         - [C](#documentação-c)
 # Dicionário de termos:
  Esta seção diz respeito aos termos utilizados neste repositório, ela serve para poder padronizar a linguagem entre todos que utilizarem os recursos deste repositório explicando o que são os termos e à quê eles se referem. :)
+
+## Editor de Texto:
+- Um editor de texto é uma ferramenta muito utilizada pelos programadores para fazer código. Pois ele pode ou não oferecer suporte à escrita do código e à linguagem de programação, mostrando cores diferentes entre os atributos do programa e otimizando a visualização do texto. Alguns editores mais poderosos permitem a instalação de extensões para facilitar a compilação do programa.
+
+## IDE:
+- Uma IDE é basicamente um editor de texto com foco em algum framework ou linguagem específica. Ela é bem mais otimizada que o editor de texto para sua linguagem e oferece maior suporte à escrita de código. Um exemplo disso é o PyCharm do python. Porém, uma IDE é muito mais pesada que um editor de texto por consumir mais recursos para suas funcionalidades. Portanto, sem um computador muito potente disponível, a melhor escolha é um editor de texto.
+
 ## Arquivo executável:
 - Um arquivo executável contém uma sequência de passos que podem ser lidos pelo sistema da máquina para gerar um efeito sobre o próprio sistema, ele é usado para rodar algoritmos feitos por um programador.
 
