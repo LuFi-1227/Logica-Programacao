@@ -1,7 +1,9 @@
 # Mini Curso de Lógica de Programação em Python
+Curso feito para o python na versão 3.12.2, se você ler este arquivo em uma versão do python posterior, alguma coisa poderá ter sido modificada ou adicionada, pois python é uma linguagem que está sempre em desenvolvimento, nesse caso, fique ligado!
 
 ## Primeiros passos:
 Os primeiros passos ao aprender uma linguagem são os mais importantes, pois são neles que aprendemos como escrever alguma coisa na tela, os tipos de variáveis, os loops e as estruturas condicionais.
+
 ### Escrever na tela (Output):
  Em python, assim como em toda linguagem de programação, deve haver alguma forma de dar um output - Um Output é uma forma de fazer o computador escrever na tela alguma informação - 
  seja para ver o valor de variáveis, seja para enviar uma mensagem ao usuário. Em todo caso, a forma de dar um output no python é usando o comando print:
