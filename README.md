@@ -3,8 +3,8 @@ Projetos de Lógica de Programação em diversas linguagens
 
 # Índice:
 - [Dicionario de termos](#dicionário-de-termos)
-  - [Editor de texto]()
-  - [IDE]()
+  - [Editor de texto](#editor-de-texto)
+  - [IDE](#ide)
   - [Arquivo executável](#arquivo-executável)
 - [Tecnologias utilizadas](#tecnologias-utilizadas)
   - [Compilador e editor de texto VSCode](#compilador-e-editor-de-texto-vscode)
@@ -14,7 +14,7 @@ Projetos de Lógica de Programação em diversas linguagens
      - [Sobre](#sobre-1)
      - [Download](#download-1)
      - [Tutorial para configurar a máquina em C](#tutorial-para-configurar-a-máquina-em-c)
-  - [Python]()
+  - [Python](#python)
      - [Sobre](#sobre-2)
      - [Download](#download-2)
      - [Tutorial para baixar e instalar o python](#tutorial-para-baixar-e-instalar-o-python)
