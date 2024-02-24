@@ -17,7 +17,7 @@ Este mini curso foi feito para quem está iniciando na linguagem javaScript e ai
 - Basta baixar o apk ou msi e rodar apertando em next e marcando para adicionar no path, futuramente, posso até fazer um tutorial.
 
 ## Primeiro Comando:
-- Assim como em toda linguagem de programação, o primeiro passo é criar um arquivo da linguagem em seu computador, e independentemente do editor de texto que você prefere utilizar, a extensão do arquivo que você irá rodar deve ser .js, portanto, comece criando no seu diretório um arquivo .js, por exemplo:
+- Assim como em toda linguagem de programação, o primeiro passo é criar um arquivo da linguagem em seu computador, e independentemente do editor de texto que você prefere utilizar, a extensão do arquivo que você irá rodar deve ser .js, portanto, comece criando no seu diretório um arquivo .js, por exemplo, crie um arquivo com o nome:
 ```
   MeuPrimeiroCodigo.js
 ```
@@ -36,3 +36,10 @@ Este mini curso foi feito para quem está iniciando na linguagem javaScript e ai
 - Aperte a tecla enter e veja seu código rodando no terminal!
 
 ## Variáveis:
+- Como dito, o JavaScript é fracamente tipado, ou seja, o interpretador não diferencia um inteiro de um real ou de um caractere. Por isso, não é necessário aprender palavras reservadas como "int" ou "float" como na linguagem C, porém, há algumas palavras reservadas para o interpretador conseguir diferenciar quanto à parte do escopo do seu programa, sendo assim, aprenderemos as palavras, bem como diferenciar a serventia de cada uma.
+
+### var:
+
+### let:
+
+### const:
