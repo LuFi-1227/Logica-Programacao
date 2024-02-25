@@ -85,3 +85,75 @@ console.log(nome);
 ```
 - Este código devolverá um Output como "Cachorro", já que não houve tentativa de mudar a const, ficando no final um código que deu certo e uma polêmica, já que o autor gosta mais de cachorro que de gato :)!
 
+### Como declarar uma Variável:
+- Existe apenas uma forma de declarar <em>uma</em> variável em javaScript com boas práticas, que é declarar seu tipo e o seu nome logo em seguida:
+```
+    var variavel1;
+    let variavel2;
+    const constante1;
+```
+- Porém, se você precisar declarar mais de uma variável do mesmo tipo, você pode fazer tanto da seguinte forma:
+```
+    var var1;
+    var var2;
+    var res;
+    let let1;
+    let let2;
+    let let3;
+```
+- Quanto da seguinte forma:
+```
+    var var1, var2, var3;
+    let let1, let2, let3;
+```
+- Essa segunda é um pouco mais simples, não?
+
+### Como inicializar uma variável:
+- Inicializar uma variável também é simples, você pode inicializá-la na sua declaração ou após isso, da seguinte forma:
+```
+    var var1 = 0; //Inicializando durante a declaração;
+    let let1 = 0; //Inicializando durante a declaração;
+    var var2;
+    var2 = 0; //Inicializando depois da declaração;
+```
+- Porém, você também pode inicializar várias variáveis na mesma linha, assim:
+```
+    var var1=0, var2=0, var3=0;
+```
+- Ou então, você também pode inicializá-las em linhas diferentes, assim:
+```
+    var var1, var2, var3;
+    var1=var2=var3=0;
+```
+- Sendo esta última forma mais confusa, porém, com o mesmo efeito!
+- Agora, você sabe bastante sobre variáveis, vamos ao próximo tópico!
+
+## Comentários:
+- Você provavelmente já viu um comentário neste documento e ficou confuso, bom, um comentário é uma linha de alto nível que você escreve, mas o interpretador não considera na interpretação, ou seja, o comentário não deve nem pode alterar o código escrito, servindo mais para o ser humano que para a máquina para explicar o que foi feito no código, inclusive, é uma boa prática (Que eu particularmente não gosto. "he, he"), mas há duas formas de comentar em javaScript, que são:
+
+### Comentário In-Line:
+- O comentário In-line comenta uma única linha, isto é, quando você apertar enter(quebrar a linha), não haverá mais comentário e o interpretador voltará a interpretar a partir da quebra de linha, para fazê-lo, use o <em>//</em>.
+```
+    //Isto é um comentário in line
+    Esta linha é interpretada pelo compilador
+
+    //Isto é outro comentário In-Line
+    //Esta linha também está comentada
+```
+- Mas como você viu, dá trabalho para comentar mais de uma linha, já que você tem que escrever <em>//</em> em todas linhas abaixo para comentá-las, por isto, existe o comentário In-Block.
+
+### Comentário In-Block:
+- O comentário In-Block serve para comentar um bloco de linhas, ou seja, um conjunto de linhas demarcado por <em>/**/</em> não será considerado pelo interpretador na interpretação, sendo assim, as quebras de linha, desde que dentro da demarcação, serão consideradas como comentários pelo interpretador, se não entendeu, você entenderá agora:
+```
+    //Isto é um comentário In-Line
+    Esta linha não foi comentada
+
+    /*
+    Isto é um comentário In-BLOCK
+    Esta linha está comentada
+    Esta também
+    Esta também
+    Esta também
+    */
+    Esta linha já não está mais comentada!
+```
