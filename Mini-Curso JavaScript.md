@@ -39,7 +39,49 @@ Este mini curso foi feito para quem está iniciando na linguagem javaScript e ai
 - Como dito, o JavaScript é fracamente tipado, ou seja, o interpretador não diferencia um inteiro de um real ou de um caractere. Por isso, não é necessário aprender palavras reservadas como "int" ou "float" como na linguagem C, porém, há algumas palavras reservadas para o interpretador conseguir diferenciar quanto à parte do escopo do seu programa, sendo assim, aprenderemos as palavras, bem como diferenciar a serventia de cada uma.
 
 ### var:
+- A palavra reservada <em>var</em> é usada para declarar variáveis que existem e podem ser acessadas mesmo que a própria existência dependa de um bloco de código e seja executada mesmo assim, como exemplo, usaremos o comando <em>if</em>, que em suma, é um comando que fará o que está em seu escopo (dentro das suas {}) se e somente se o que tiver como condição (dentro de seus ()) acontecer. Veja:
+```
+if(true){
+    var nome = "nome de alguem";
+}
+
+console.log(nome);
+```
+- Nesse caso, como a condição é <em>true</em>, quer dizer que o <em>if</em> é verdadeiro, ou seja, a variável nome é declarada na interpretação do código e pode ser usada logo em seguida sem nenhum problema.
 
 ### let:
+- Já a palavra reservada <em>let</em> é usada para declarar variáveis que poderão ser acessadas somente se existirem no mesmo escopo do local onde serão acessadas, isto é, somente se não dependerem de outro bloco de código para existir, veja:
+```
+if(true){
+    let nome = "nome de alguem";
+}
 
+console.log(nome);
+```
+- Neste caso, o console dirá que há um erro de declaração de variável no código, isto porque mesmo que a nossa variável <em>nome</em> exista por causa do fato do <em>if</em> ser verdadeiro na execução deste código, não pode ser usada devido à possibilidade de não existir, neste caso, para obter o mesmo resultado de uma var, deveríamos rodar o seguinte código:
+```
+let nome;
+if(true){
+    nome = "nome de alguem";
+}
+
+console.log(nome);
+```
+- Este código exibirá o <em>"nome de alguem"</em> pelo fato de a <em>let</let> existir independentemente do if na execução. Portanto, enquanto uma <em>var</em> existe independentemente de estar em um bloco de código, a <em>let</em> só existe se estiver no mesmo bloco de código onde será utilizada.
+ 
 ### const:
+- Uma <em>const</em> é uma "variável" que não pode variar, ou seja, depois de uma vez declarada, nunca poderá ter seu valor modificado. Veja:
+ ```
+const nome = "Cachorro";
+const nome = "Gato";
+
+console.log(nome);
+```
+- Este código devolverá um erro por causa da tentativa de mudar o valor de uma constante, sendo assim, fica provado que no javaScript, uma constante não pode mudar nunca, se você quiser fazer este código dar certo, remova a linha 1 ou a linha 2 conforme sua preferência. Veja:
+ ```
+const nome = "Cachorro";
+
+console.log(nome);
+```
+- Este código devolverá um Output como "Cachorro", já que não houve tentativa de mudar a const, ficando no final um código que deu certo e uma polêmica, já que o autor gosta mais de cachorro que de gato :)!
+
