@@ -157,3 +157,142 @@ console.log(nome);
     */
     Esta linha já não está mais comentada!
 ```
+
+## Operadores Matemáticos:
+- Assim como em todas as linguagens de programação, os operadores matemáticos também estão presentes em JavaScript, para usá-los, é bem simples, veja a seguir os operadores matemáticos do JavaScript e como usá-los.
+
+### Soma:
+- Vamos começar pelo operador matemático de soma, para usá-lo, basta digitar 2 números e um <em>+</em> entre eles, veja:
+```javascript
+var op = 10;
+var op2 = 20;
+
+console.log(op1+op2);//Saída = 30
+```
+
+### Subtração:
+- O operador de subtração, que faz a subtração entre dois números, é usado com um sinal de <em>-</em> entre os elementos, veja:
+```javascript
+var op = 20;
+var op2 = 10;
+
+console.log(op1-op2);//Saída = 10
+```
+
+### Multiplicação:
+- O operador de subtração, que multiplica os operandos, é usado com um sinal de <em>*</em> entre os elementos, veja:
+```javascript
+var op = 2;
+var op2 = 10;
+
+console.log(op1*op2);//Saída = 20
+```
+
+### Divisão:
+- O operador de divisão divide um número (numerador) por outro (denominador), sendo usado com um sinal de <em>/</em> entre os elementos, e podendo resultar em números quebrados, veja:
+```javascript
+var op = 2;
+var op2 = 10;
+
+console.log(op2/op1);//Saída = 5
+
+var op3 = 15;
+var op4 = 2;
+
+var res = op3/op4;
+
+console.log(res)//Saída = 7.5;
+```
+
+### Resto:
+- O operador de resto resulta no resto de uma divisão, ou seja, se você divide 15 por 2, o resultado <strong>inteiro</strong> é 7, porém, 7*2=14, ou seja, para que seja 15, falta uma unidade, esta unidade é chamada de resto, cujo cálculo no javascript pode ser feito com o operando <em>%</em>, veja:
+```javascript
+var op = 2;
+var op2 = 15;
+
+console.log(op2%op1);//Saída = 1
+```
+
+### Incremento:
+- O incremento é uma operação que adiciona uma unidade à um valor no javascript, ou seja, se o valor é 7, o incremento de 7 é 8, podendo ser usado com o operando <em>++</em>, da seguinte forma:
+```javascript
+var op = 1;
+op++;
+
+console.log(op);//Saída = 2
+```
+- Porém, o mesmo resultado pode ser alcançado da seguinte forma:
+```javascript
+var op = 1;
+op = op + 1;
+
+console.log(op);//Saída = 2
+```
+- Ou da seguinte forma:
+```javascript
+var op = 1;
+op+=1;
+
+console.log(op);//Saída = 2
+```
+- Pois todas estas operações mostradas são equivalentes, porém, com a seguinda e terceira operação, você pode incrementar mais de uma unidade, observe:
+```javascript
+var op = 1;
+op+=2;
+
+console.log(op);//Saída = 3
+
+var op1 = 2;
+op1=op1 + 2;
+
+console.log(op1);//Saída = 4
+```
+- Sendo a primeira operação, uma operação equivalente a segunda, porém, simplificada.
+
+### Decremento:
+- Na mesma proporção que o incremento, o decremento decresse o número em uma unidade, podendo ser feito usando o <em>--</em> em um número, observe:
+```javascript
+var op = 2;
+
+console.log(op--);//Saída = 1
+```
+
+- Porém, esta operação também pode ser feita de 2 formas, sendo esta:
+```javascript
+var op = 2;
+op -= 1;
+console.log(op);//Saída = 1
+```
+- Ou assim:
+```javascript
+var op = 2;
+op = op - 1;
+console.log(op);//Saída = 1
+```
+- Mas também, há o decremento de mais de uma unidade, dessa forma:
+```javascript
+var op = 5;
+op-=2;
+
+console.log(op);//Saída = 3
+
+var op1 = 7;
+op1=op1 - 2;
+
+console.log(op1);//Saída = 5
+```
+
+### Simplificação:
+- Mas assim como a soma e a subtração que respectivamente são escritas como "1 + 2; 2 - 1;" e possuem simplificações como "1+=2; 2-=1", as outras operações também podem ser simplificadas, como por exemplo:
+```javascript
+var op = 1;
+op*=2; //É equivalente à op = op*2;
+
+console.log(op);//Saída = 2
+
+var op1 = 2;
+op1/=2; //É equivalente à op1 = op1/2;
+
+console.log(op1);//Saída = 1
+```
+- Finalizando assim tudo que você precisa saber das operações matemáticas em JavaScript.
