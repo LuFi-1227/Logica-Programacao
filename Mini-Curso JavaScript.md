@@ -67,7 +67,7 @@ if(true){
 
 console.log(nome);
 ```
-- Este código exibirá o <em>"nome de alguem"</em> pelo fato de a <em>let</let> existir independentemente do if na execução. Portanto, enquanto uma <em>var</em> existe independentemente de estar em um bloco de código, a <em>let</em> só existe se estiver no mesmo bloco de código onde será utilizada.
+- Este código exibirá o <em>"nome de alguem"</em> pelo fato de a <em>let</em> existir independentemente do if na execução. Portanto, enquanto uma <em>var</em> existe independentemente de estar em um bloco de código, a <em>let</em> só existe se estiver no mesmo bloco de código onde será utilizada.
  
 ### const:
 - Uma <em>const</em> é uma "variável" que não pode variar, ou seja, depois de uma vez declarada, nunca poderá ter seu valor modificado. Veja:
