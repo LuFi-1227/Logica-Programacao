@@ -22,11 +22,11 @@ Este mini curso foi feito para quem está iniciando na linguagem javaScript e ai
   MeuPrimeiroCodigo.js
 ```
 - Estando dentro do seu arquivo para começar a editá-lo, agora você poderá escrever o comando de Output do javascript, que é o seguinte:
-```
+```javascript
   console.log("mensagem");
 ```
 - Onde você pode substituir a palavra mensagem por qualquer coisa que você queira, por exemplo:
-```
+```javascript
   console.log("Alô, mundo");
 ```
 - Após isto, basta salvar o documento de texto da forma como está e abrir o diretório no qual está o seu arquivo no terminal, então você pode optar por rodar o script no navegador usando html (Ensinarei posteriormente), ou se você tiver o node instalado, basta digitar no seu terminal o seguinte comando:
@@ -40,7 +40,7 @@ Este mini curso foi feito para quem está iniciando na linguagem javaScript e ai
 
 ### var:
 - A palavra reservada <em>var</em> é usada para declarar variáveis que existem e podem ser acessadas mesmo que a própria existência dependa de um bloco de código e seja executada mesmo assim, como exemplo, usaremos o comando <em>if</em>, que em suma, é um comando que fará o que está em seu escopo (dentro das suas {}) se e somente se o que tiver como condição (dentro de seus ()) acontecer. Veja:
-```
+```javascript
 if(true){
     var nome = "nome de alguem";
 }
@@ -51,7 +51,7 @@ console.log(nome);
 
 ### let:
 - Já a palavra reservada <em>let</em> é usada para declarar variáveis que poderão ser acessadas somente se existirem no mesmo escopo do local onde serão acessadas, isto é, somente se não dependerem de outro bloco de código para existir, veja:
-```
+```javascript
 if(true){
     let nome = "nome de alguem";
 }
@@ -59,7 +59,7 @@ if(true){
 console.log(nome);
 ```
 - Neste caso, o console dirá que há um erro de declaração de variável no código, isto porque mesmo que a nossa variável <em>nome</em> exista por causa do fato do <em>if</em> ser verdadeiro na execução deste código, não pode ser usada devido à possibilidade de não existir, neste caso, para obter o mesmo resultado de uma var, deveríamos rodar o seguinte código:
-```
+```javascript
 let nome;
 if(true){
     nome = "nome de alguem";
@@ -71,14 +71,14 @@ console.log(nome);
  
 ### const:
 - Uma <em>const</em> é uma "variável" que não pode variar, ou seja, depois de uma vez declarada, nunca poderá ter seu valor modificado. Veja:
- ```
+ ```javascript
 const nome = "Cachorro";
 const nome = "Gato";
 
 console.log(nome);
 ```
 - Este código devolverá um erro por causa da tentativa de mudar o valor de uma constante, sendo assim, fica provado que no javaScript, uma constante não pode mudar nunca, se você quiser fazer este código dar certo, remova a linha 1 ou a linha 2 conforme sua preferência. Veja:
- ```
+ ```javascript
 const nome = "Cachorro";
 
 console.log(nome);
@@ -87,13 +87,13 @@ console.log(nome);
 
 ### Como declarar uma Variável:
 - Existe apenas uma forma de declarar <em>uma</em> variável em javaScript com boas práticas, que é declarar seu tipo e o seu nome logo em seguida:
-```
+```javascript
     var variavel1;
     let variavel2;
     const constante1;
 ```
 - Porém, se você precisar declarar mais de uma variável do mesmo tipo, você pode fazer tanto da seguinte forma:
-```
+```javascript
     var var1;
     var var2;
     var res;
@@ -102,7 +102,7 @@ console.log(nome);
     let let3;
 ```
 - Quanto da seguinte forma:
-```
+```javascript
     var var1, var2, var3;
     let let1, let2, let3;
 ```
@@ -110,18 +110,18 @@ console.log(nome);
 
 ### Como inicializar uma variável:
 - Inicializar uma variável também é simples, você pode inicializá-la na sua declaração ou após isso, da seguinte forma:
-```
+```javascript
     var var1 = 0; //Inicializando durante a declaração;
     let let1 = 0; //Inicializando durante a declaração;
     var var2;
     var2 = 0; //Inicializando depois da declaração;
 ```
 - Porém, você também pode inicializar várias variáveis na mesma linha, assim:
-```
+```javascript
     var var1=0, var2=0, var3=0;
 ```
 - Ou então, você também pode inicializá-las em linhas diferentes, assim:
-```
+```javascript
     var var1, var2, var3;
     var1=var2=var3=0;
 ```
@@ -133,7 +133,7 @@ console.log(nome);
 
 ### Comentário In-Line:
 - O comentário In-line comenta uma única linha, isto é, quando você apertar enter(quebrar a linha), não haverá mais comentário e o interpretador voltará a interpretar a partir da quebra de linha, para fazê-lo, use o <em>//</em>.
-```
+```javascript
     //Isto é um comentário in line
     Esta linha é interpretada pelo compilador
 
@@ -144,7 +144,7 @@ console.log(nome);
 
 ### Comentário In-Block:
 - O comentário In-Block serve para comentar um bloco de linhas, ou seja, um conjunto de linhas demarcado por <em>/**/</em> não será considerado pelo interpretador na interpretação, sendo assim, as quebras de linha, desde que dentro da demarcação, serão consideradas como comentários pelo interpretador, se não entendeu, você entenderá agora:
-```
+```javascript
     //Isto é um comentário In-Line
     Esta linha não foi comentada
 
